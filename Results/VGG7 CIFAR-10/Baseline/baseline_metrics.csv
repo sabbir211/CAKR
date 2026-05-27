@@ -1,0 +1,2 @@
+model,best_acc,params,macs,flops,bops,model_size_bytes,train_minutes,device,seed
+Baseline_VGG7_CIFAR10,92.62,1148874,606000000.0,1212000000.0,620544000000.0,4615203,40.61593486865362,cuda,123

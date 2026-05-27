@@ -1,0 +1,2 @@
+model,accuracy,params,macs,flops,bops,model_size_bytes,train_minutes
+Baseline_ResNet20,92.96,272474,41000000.0,82000000.0,41984000000.0,1138509,48.62793498039245
