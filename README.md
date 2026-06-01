@@ -1,4 +1,4 @@
-# CAKR: Fixed and Compression-Aware Knowledge Regularization for GETA-Based Joint Structured Pruning and Quantization
+# Teacher-Guided Recovery for GETA-Based Joint Structured Pruning and Quantization: A Comparative Study of Fixed and Compression-Aware Distillation
 
 > **Paper submitted to Neurocomputing (Elsevier), 2026**  
 > Author: MD. Sabbir Alam Pial, Ayesha Akter Lima, Abu Raihan, Al Reyad | Institution: Varendra University | Country: Bangladesh
@@ -9,13 +9,13 @@
 
 This repository contains all experimental results, training logs, configuration details, and figures for the paper:
 
-**"Fixed and Compression-Aware Knowledge Regularization for GETA-Based Joint Structured Pruning and Quantization"**
+**"Teacher-Guided Recovery for GETA-Based Joint Structured Pruning and Quantization: A Comparative Study of Fixed and Compression-Aware Distillation"**
 
 We study teacher-guided recovery for GETA-based joint structured pruning and weight-only quantization by comparing three methods:
 
 - **GETA-only** — cross-entropy loss only
 - **GETA + Vanilla KD** — fixed knowledge distillation
-- **GETA + CAKR** — compression-aware adaptive knowledge regularization (proposed)
+- **GETA + CAKR** — compression-aware adaptive knowledge regularization 
 
 ---
 
