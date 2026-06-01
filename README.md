@@ -147,8 +147,8 @@ All original training notebooks with timestamps are publicly available on Kaggle
 
 | Figure                                         | Description                                       |
 | ---------------------------------------------- | ------------------------------------------------- |
-| ![Fig 2](figures/cifar100v2.png)     | Training dynamics — ResNet20/CIFAR-100 (Seed 123) |
-| ![Fig 3](figures/output.png) | Accuracy comparison — all 6 settings              |
+| ![Fig 2](./figures/cifar100v2.png)     | Training dynamics — ResNet20/CIFAR-100 (Seed 123) |
+| ![Fig 3](./figures/output.png) | Accuracy comparison — all 6 settings              |
               
 
 ---
@@ -174,7 +174,7 @@ Study of Fixed and Compression-Aware Distillation},
 ## Contact
 
 **[MD. Sabbir Alam Pial]** — [Sabbir.vu11@gmail.com]  
-**[Abu Raihan]** — [Sabbir.vu11@gmail.com]  
+**[Abu Raihan]** — [raihan.str13@gmail.com]  
 **[Al Reyad]** — [Sabbir.vu11@gmail.com]  
 Varendra University, Rajshahi, Bangladesh
 
