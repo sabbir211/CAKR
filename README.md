@@ -98,6 +98,17 @@ All original training notebooks with timestamps are publicly available on Kaggle
 | ResNet56/CIFAR-100 | GETA-only  | 123  | [link](https://www.kaggle.com/code/sabbiralampial/res56-cifar100-geta-only)                 | 67.57%    |
 | ResNet56/CIFAR-100 | GETA-only  | 234  | [link](https://www.kaggle.com/code/sabbiralam1/seed-234-resnet56-cifar100-geta-only)        | 67.49%    |
 | ResNet56/CIFAR-100 | GETA-only  | 345  | [link](https://www.kaggle.com/code/sabbiralam1/seed-345-resnet56-cifar100-geta-only)        | 67.97%    |
+|          ----      | ---        | --   |                                       ---                                                   |           |
+| ResNet56/TinyImageNet | Baseline   | 123  | [link](https://www.kaggle.com/code/sabbiralam1/tinyimagenet-baseline/output)            | 58.73%    |
+| ResNet56/TinyImageNet | CAKR       | 123  | [link](https://www.kaggle.com/code/sabbiralampial/seed123-resnet56-tinyimagenet-cakr)      | 51.05%    |
+| ResNet56/TinyImageNet | CAKR       | 234  | [link](https://www.kaggle.com/code/sabbiralampial/seed-234-resnet56-tinyimagenet-cakr/)          | 50.54%    |
+| ResNet56/TinyImageNet | CAKR       | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-tinyimagenet-cakr-2)          | 50.56%    |
+| ResNet56/TinyImageNet | Vanilla KD | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-resnet56-cifar100-vanilla-kd)    | 51.66%    |
+| ResNet56/TinyImageNet | Vanilla KD | 234  | [link](https://www.kaggle.com/code/raihanvu/seed-234-tinyimagenet-vanila-kd-2/)          | 52.0%    |
+| ResNet56/TinyImageNet | Vanilla KD | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-tinyimagenet-vanila-kd-2)           | 52.42%     |
+| ResNet56/TinyImageNet | GETA-only  | 123  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-123-tinyimagenet-geta-final)              | 50.28%    |
+| ResNet56/TinyImageNet | GETA-only  | 234  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-234-tinyimagenet-geta-final)     | 50.2%    |
+| ResNet56/TinyImageNet | GETA-only  | 345  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-345tinyimagenet-geta-final)     | 50.71%    |
 |                    |            |      |                                                                                             |           |
 | VGG7/CIFAR-100     | Baseline   | 123  | [link](https://www.kaggle.com/code/mdrokyhasan/vgg7-cifar100-baseline)                      | 71.65%    |
 | VGG7/CIFAR-100     | CAKR       | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-vgg7-cifar100-cakr)                 | 64.15%    |
@@ -142,6 +153,39 @@ All original training notebooks with timestamps are publicly available on Kaggle
 | VGG7/CIFAR-10      | GETA-only  | 123  | [link](https://www.kaggle.com/code/raihanvu/vgg7-ci10-geta-only)                            | 90.63%    |
 | VGG7/CIFAR-10      | GETA-only  | 234  | [link](https://www.kaggle.com/code/raihanvu/seed-234-vgg7-ci10-geta-only)                   | 91.0%     |
 | VGG7/CIFAR-10      | GETA-only  | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-vgg7-ci10-geta-only)                   | 90.61%    |
+|                    |            |      |                                                                                             |
+| ResNet56/TinyImageNet-200      | Baseline   | 123  | [link](https://www.kaggle.com/code/sabbiralam1/tinyimagenet-baseline)                          |--.62%    |
+| ResNet56/TinyImageNet-200      | CAKR       | 123  | [link](https://www.kaggle.com/code/sabbiralampial/seed123-resnet56-tinyimagenet-cakr)| --%    |
+| ResNet56/TinyImageNet-200      | CAKR       | 234  | [link](https://www.kaggle.com/code/sabbiralampial/seed-234-resnet56-tinyimagenet-cakr/)  | --.05%    |
+| ResNet56/TinyImageNet-200      | CAKR       | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-tinyimagenet-cakr-2)                       | 50.56%    |
+| ResNet56/TinyImageNet-200      | Vanilla KD | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-resnet56-tinyimagenet-vanilla-kd)   | --%    |
+| ResNet56/TinyImageNet-200      | Vanilla KD | 234  | [link](https://www.kaggle.com/code/raihanvu/seed-234-tinyimagenet-vanila-kd-2)             | --.23%    |
+| ResNet56/TinyImageNet-200      | Vanilla KD | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-tinyimagenet-vanila-kd-2)         | --.9%     |
+| ResNet56/TinyImageNet-200      | GETA-only  | 123  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-123-tinyimagenet-geta-final)  | --.63%    |
+| ResNet56/TinyImageNet-200      | GETA-only  | 234  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-234-tinyimagenet-geta-final)         | --.0%     |
+| ResNet56/TinyImageNet-200      | GETA-only  | 345  | [link](https://www.kaggle.com/code/mdrokyhasan/seed-345tinyimagenet-geta-final)         | --.61%    |
+|                    |            |      |                                                                                             |            |
+| ResNet20/TinyImageNet-200  | baseline   | 123  | [link](https://www.kaggle.com/code/sabbiralam1/resnet20-tinyimagenet-baseline)    | --.96%    |
+| ResNet20/TinyImageNet-200  | CAKR       | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-resnet20-tinyimagenet-cakr)           | --%    |
+| ResNet20/TinyImageNet-200  | CAKR       | 234  | [link](https://www.kaggle.com/code/sabbiralam1/seed-234-resnet20-tinyimagenet-cakr)            | --%    |
+| ResNet20/TinyImageNet-200  | CAKR       | 345  | [link](https://www.kaggle.com/code/sabbiralampial/seed-345-resnet20-tinyimagenet-cakr)            | --     |
+| ResNet20/TinyImageNet-200  | Vanilla KD | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-resnet20-tinyimagenet-vanila-kd)           | --%    |
+| ResNet20/TinyImageNet-200  | Vanilla KD | 234  | [link](https://www.kaggle.com/code/sabbiralam1/seed-234-resnet20-tinyimagenet-vanila-kd)           | --%    |
+| ResNet20/TinyImageNet-200  | Vanilla KD | 345  | [link](https://www.kaggle.com/code/sabbiralampial/seed-345-resnet20-tinyimagenet-vanila-kd2)           | --%    |
+| ResNet20/TinyImageNet-200  | GETA-only  | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-resnet20-tinyimagenet-geta-only)      | --%    |
+| ResNet20/TinyImageNet-200  | GETA-only  | 234  | [link](https://www.kaggle.com/code/sabbiralam1/seed-234-resnet20-tinyimagenet-geta-only)      | --%    |
+| ResNet20/TinyImageNet-200  | GETA-only  | 345  | [link](https://www.kaggle.com/code/sabbiralampial/seed-345-resnet20-tinyimagenet-geta-only2)     | --%    |
+|                    |            |      |                                                                                             |
+| VGG7/TinyImageNet-200      | Baseline   | 123  | [link](https://www.kaggle.com/code/sabbiralam1/vgg7-tinyimagenet-baseline-final)  | --.62%    |
+| VGG7/TinyImageNet-200      | CAKR       | 123  | [link](https://www.kaggle.com/code/sabbiralam1/seed-123-vgg7-tinyimagenet-cakr)           | --%    |
+| VGG7/TinyImageNet-200      | CAKR       | 234  | [link](https://www.kaggle.com/code/raihanvu/seed-234-vgg7-tinyimagenet-cakr)                        | --%    |
+| VGG7/TinyImageNet-200      | CAKR       | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-vgg7-tinyimagenet-cakr)                       | --%    |
+| VGG7/TinyImageNet-200      | Vanilla KD | 123  | [link](https://www.kaggle.com/code/sabbiralampial/seed-123-vgg7-tinyimagenet-vanila-kd)            | --%    |
+| VGG7/TinyImageNet-200      | Vanilla KD | 234  | [link](https://www.kaggle.com/code/sabbiralampial/seed-234-vgg7-tinyimagenet-vanila-kd)             | --%    |
+| VGG7/TinyImageNet-200      | Vanilla KD | 345  | [link](https://www.kaggle.com/code/raihanvu/seed-345-vgg7-tinyimagenet-vanila-kd-2)         | --     |
+| VGG7/TinyImageNet-200      | GETA-only  | 123  | [link](https://www.kaggle.com/code/sabbiralampial/seed-123-vgg7-tinyimagenet-geta-only)  | --%    |
+| VGG7/TinyImageNet-200      | GETA-only  | 234  | [link](https://www.kaggle.com/code/sabbiralampial/seed-234-vgg7-tinyimagenet-geta-only)                   | --     |
+| VGG7/TinyImageNet-200      | GETA-only  | 345  | [link](https://www.kaggle.com/code/sabbiralampial/seed-345-vgg7-tinyimagenet-geta-only)                   | --%    |
 
 ## Figures
 
